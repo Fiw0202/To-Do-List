@@ -1,0 +1,73 @@
+.list-item {
+    display: flex;
+    list-style-type: none;
+    border-bottom: 2px solid gray;
+    margin:  16px;
+    padding: 16px;
+  }
+  
+  .list {
+    width:216px;
+    background: none;
+    border: none;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .btn-complete {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .btn-complete {
+    color: rgb(134, 235, 134);
+  
+  }
+  .btn-complete:hover {
+      color: rgb(26, 148, 26);
+    
+    }
+  
+  .button button:nth-child(2) {
+    background-color: rgb(109, 173, 109);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    height: 35px;
+    border-radius: 8px;
+    
+  }
+  .button button:nth-child(2):hover {
+    background-color: rgb(21, 148, 38);
+  }
+  .todo-list button:nth-child(3) {
+    background-color: rgb(250, 101, 101);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    height: 35px;
+    border-radius: 8px;
+  }
+  .todo-list button:nth-child(3):hover {
+    background-color: rgb(245, 0, 0);
+  }
+  .completed {
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    opacity: 0.5;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+  
